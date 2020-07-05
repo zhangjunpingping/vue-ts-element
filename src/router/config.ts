@@ -10,6 +10,7 @@ const routesLayout = {
   '/activity': {
     path: '/activity',
     redirect: '/activity/page1',
+    component: 'Activity',
     children: {
       '/activity/page1': 'Activity/Page1',
       '/activity/page2': 'Activity/Page1'
@@ -17,7 +18,7 @@ const routesLayout = {
   }
 }
 /**
- * 单独页面，如登陆，404页面
+ * 单独页面，如登陆，404页面，不使用header,footer
  */
 const routesAlone = { '/login': 'Account/Login', '/error-page': 'ErrorPage' }
 

@@ -1,5 +1,7 @@
 <template>
-  <div class="archive">dadadda</div>
+  <div class="archive">
+    <el-button>Course/Page1</el-button>
+  </div>
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
